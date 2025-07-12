@@ -64,7 +64,10 @@ export const metadata: Metadata = {
   icons: {
     icon: "/images/logo.png",
   },
-  themeColor: '#f8f8f8',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#f8f8f8' },
+    { media: '(prefers-color-scheme: dark)', color: '#f8f8f8' },
+  ],
   appleWebApp: {
     title: 'next-redux',
     capable: true,

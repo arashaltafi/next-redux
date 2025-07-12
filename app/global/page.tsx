@@ -1,8 +1,8 @@
-import GlobalPage from '@/components/GlobalPage'
+import GlobalPageClient from '@/components/GlobalPageClient'
 import React from 'react'
 
 const Global = () => {
-    return <GlobalPage />
+    return <GlobalPageClient />
 }
 
 export default Global
